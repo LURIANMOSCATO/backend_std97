@@ -1,10 +1,10 @@
 <?php
 
 class DbConnect {
-    private $server = 'localhost:3307';
+    private $server = 'localhost';
     private $dbname = 'barber';
-    private $user = 'admin';
-    private $pass = 'admin';
+    private $user = 'root';
+    private $pass = 'IPEkhm55648';
 
     public function connect() {
         try {
