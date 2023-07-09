@@ -14,7 +14,7 @@ $method = $_SERVER['REQUEST_METHOD'];
 switch($method) {
 
     case "GET":
-    $sql = "SELECT id, upper(barbeiro) as barbeiro, upper(description) as description, valor, DATE_FORMAT(dateLaunch, '%d/%m/%Y') as dateLaunch FROM store ORDER BY day(dateLaunch), month(dateLaunch) DESC";
+    $sql = "SELECT id, upper(barbeiro) as barbeiro, upper(description) as description, valor, DATE_FORMAT(dateLaunch, '%d/%m/%Y') as dateLaunch FROM store ORDER BY dateLaunch DESC";
     $stmt = $conn->prepare($sql);
     $stmt->execute();
     $users = $stmt->fetchAll(PDO::FETCH_ASSOC);
