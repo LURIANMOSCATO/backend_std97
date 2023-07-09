@@ -1,10 +1,10 @@
 <?php
 
 class DbConnect {
-    private $server = 'https://node143211-api97.jelastic.saveincloud.net/';
+    private $server = 'https://node143512-barber97.jelastic.saveincloud.net';
     private $dbname = 'barber';
     private $user = 'root';
-    private $pass = 'IPEkhm55648';
+    private $pass = 'TOFdrg19957';
 
     public function connect() {
         try {
