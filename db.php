@@ -1,10 +1,10 @@
 <?php
 
 class DbConnect {
-    private $server = 'node143512-barber97.jelastic.saveincloud.net';
-    private $dbname = 'barber';
+    private $server = 'node147581-login-adce.jelastic.saveincloud.net';
+    private $dbname = 'centro_estetico';
     private $user = 'root';
-    private $pass = 'TOFdrg19957';
+    private $pass = 'GBAfcr40559';
 
     public function connect() {
         try {
